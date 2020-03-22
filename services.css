@@ -1,0 +1,57 @@
+
+.card {
+    border: 2px solid #EAEBEB;
+    height: 22rem;
+    background-color: #EAEBEB;
+    width: 20rem;
+}
+.card-title {
+    letter-spacing: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-text {
+    font-family: 'Roboto', sans-serif;
+}
+i {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+hr {
+    height: 1px;
+    background-color: #353A3F;
+    border: none;
+}
+#Hizmetlerimiz-Baslik {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3rem;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+@media (min-width: 768px) {
+    #Hizmetlerimiz-Baslik {
+        letter-spacing: 0.5rem;
+        text-align: left;
+        font-size: 4rem;
+    }
+
+}
+@media (min-width: 992px) {
+    #Hizmetlerimiz-Baslik {
+        letter-spacing: 0.5rem;
+        text-align: left;
+        font-size: 5rem;
+    }
+
+}
+@media(min-width: 1200px) {
+    #Hizmetlerimiz-Baslik {
+        letter-spacing: 0.5rem;
+        text-align: left;
+        font-size: 6rem;
+    }
+
+}

@@ -1,0 +1,77 @@
+.footer-header {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+}
+
+#iletisim > h1 {
+    font-size: 2.5rem;
+}
+
+.footer-tanitim-mtn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #292828;
+}
+
+.footer-tel {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+}
+
+.footer-tel > span {
+    font-weight: 300;
+    display: block;
+}
+
+@media (min-width: 767px) {
+    #footer-header {
+        letter-spacing: 0.5rem;
+        text-align: left;
+        font-size: 5rem;
+    }
+
+    #iletisim > h1 {
+        font-size: 3.5rem;
+    }
+
+    .footer-tanitim-mtn {
+        font-size: 1.5rem;
+    }
+
+    .footer-tel {
+        font-size: 1.8rem;
+    }
+
+    .footer-tel > span {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 992px) {
+    #footer-header {
+        font-size: 6rem;
+    }
+
+    #iletisim > h1 {
+        font-size: 4rem;
+    }
+    .footer-tel {
+       text-align: center;
+    }
+}
+
+@media(min-width: 1200px) {
+    #footer-header {
+        font-size: 8rem;
+    }
+
+    #iletisim > h1 {
+        font-size: 5rem;
+    }
+}

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum&display=swap');
+
+#anaSf-jton {
+    background-image: url(css-img/jumbotron-4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#anaSf-jton > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding-top: 13rem;
+}
+
+#punch-line {
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+#vizyonumuz-txt {
+    padding: 3rem;
+}
+
+#vizyonumuz-txt h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    letter-spacing: 0.4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#vizyonumuz-txt p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#marka {
+    font-size: 1.7rem;
+    font-family: 'Oranienbaum', serif;
+}
+
+#marka-navbar {
+    font-family: 'Oranienbaum', serif;
+    font-size: 1.7rem;
+}
+
+
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+@media (min-width: 768px) {
+
+    /*tablets*/
+    @keyframes text {
+        0% {
+            transform: translateY(25%);
+            -webkit-transform: translateY(25%);
+            -moz-transform: translateY(25%);
+            -ms-transform: translateY(25%);
+            -o-transform: translateY(25%);
+        }
+
+        100% {
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+
+    #anaSf-jton > h1 {
+        font-size: 4rem;
+        letter-spacing: 0.8rem;
+        padding-top: 10rem;
+        animation-name: text;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        position: relative;
+    }
+
+    #punch-line {
+        font-size: 7rem;
+    }
+
+    #vizyonumuz-txt h1 {
+        text-align: left;
+        letter-spacing: 1rem;
+        font-size: 4rem;
+    }
+
+    #vizyonumuz-txt p {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    #anaSf-jton > h1 {
+        font-size: 3rem;
+        padding-top: 9rem;
+    }
+
+    #punch-line {
+        font-size: 8rem;
+    }
+
+    #vizyonumuz-txt h1 {
+        font-size: 5rem;
+        letter-spacing: 1rem;
+    }
+
+    #vizyonumuz-txt p {
+        margin-top: 5rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media(min-width: 1200px) {
+    #anaSf-jton > h1 {
+        font-size: 5rem;
+        padding-top: 3rem;
+    }
+
+    #punch-line {
+        font-size: 10rem;
+    }
+
+    #vizyonumuz-txt h1 {
+        text-align: left;
+        font-size: 5rem;
+        letter-spacing: 1rem;
+    }
+
+    #vizyonumuz-txt p {
+        font-size: 1.5rem;
+    }
+
+}
